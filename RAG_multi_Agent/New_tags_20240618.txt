@@ -1,0 +1,6 @@
+统计日期	工单ID	一级标签	二级标签	三级标签	四级标签	内部反馈人组织架构	原始诉求	解决方案	url	透传类别
+20240116	11997494	工具类型	InquireRole	操作咨询	项目成员问题	CSIG云与智慧产业事业群	帮忙查询这个项目商务是谁哈【20220220224597】	已协查，知晓	https://andon.woa.com/ticket/detail/?id=11997494&sign=48ef12a790a63a1ddcfd589707f40fc3	未知
+20240130	12067698	工具类型	InquireRoleExcludeID	操作咨询	项目成员问题	CSIG云与智慧产业事业群	帮忙查询项目PM	核实了下这个项目还没有测算报价信息，还未指派PM	https://andon.woa.com/ticket/detail/?id=12067698&sign=21e0e44822d4a40f660c6246db3683f2	未知
+20240131	12071525	工具类型	InquireRole	操作咨询	项目成员问题	CSIG云与智慧产业事业群	20230919389795 您好 请问可以帮查一下这个项目的pm是谁吗	已协查信息	https://andon.woa.com/ticket/detail/?id=12071525&sign=da3be89bc459313fd39509c6fc8fcc6e	未知
+20240418	12425359	客户经营平台产品中心	合作伙伴控制台	代客管理-代客解绑	咨询类	CSIG云与智慧产业事业群	怎么待客解绑	https://csig.lexiangla.com/teams/k100181/docs/c00c	https://andon.woa.com/ticket/detail/?id=12425359&sign=2aaab0c9bffaff8f09762e5acacf7fae	未上升
+20240418	12425509	其他中心	其他产品	其他产品	咨询类	CSIG云与智慧产业事业群/智慧行业五部/中小企业与区域架构中心/通用架构组	能碳工场产品负责人已活水，如何变更负责人？	建议咨询C2000（腾讯云助手）	https://andon.woa.com/ticket/detail/?id=12425509&sign=2562aeb5260987996c403da3758783ae	未上升
