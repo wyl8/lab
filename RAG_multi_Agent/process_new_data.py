@@ -1,6 +1,6 @@
 import json
 import pickle
-
+import pdb
 from embedding_agent import EmbeddingAgent
 
 
@@ -14,7 +14,7 @@ def loda_data(file_name):
     with open(file_name,'r',encoding='utf-8') as f:
         lines = f.readlines()
     print(len(lines))
-    all_titles = lines[0].strip().split('\t')
+    all_titles = lines[0].strip().split(' ')
     print(all_titles)
     print(len(all_titles))
     # 去掉第一行
@@ -25,13 +25,15 @@ def loda_data(file_name):
     duplicate_query = []
     for eachline in data:
         tmp_dict = {}
-        eachlist = eachline.strip().split('\t')
+        eachlist = eachline.strip().split(' ')
+
         """
         if len(eachlist) != 11:
             print(" 格式错误")
             print(eachlist)
             continue
         """
+        # pdb.set_trace()
         tmp_dict['公司名称'] = eachlist[0]
         tmp_dict['公司规模'] = eachlist[1]
         tmp_dict['岗位'] = eachlist[2]
@@ -40,6 +42,7 @@ def loda_data(file_name):
         tmp_dict['经验要求'] = eachlist[5]
         tmp_dict['basic'] = eachlist[6]
         tmp_dict['ID'] = eachlist[7]
+
         # 过短数据处理
         """
         if len(tmp_dict['ori_query']) < 4:
